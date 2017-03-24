@@ -1,0 +1,970 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "2.2.1",
+  "hash": "315f1b92050c9e93ba64",
+  "time": 124,
+  "publicPath": "/dist/",
+  "assetsByChunkName": {
+    "site": "ce2edb7b0c5327bfe64a/site.js",
+    "admin": "8225dabe1b7e2505e1a0/admin.js",
+    "common-vendor": "973b2bd2f973a83c9838/common-vendor.js",
+    "common": "c297a16a8cdc6cee675f/common.js",
+    "site-vendor": "97c69530e53e0de03c0a/site-vendor.js",
+    "admin-vendor": "3d3c35ef01d26e0284dc/admin-vendor.js",
+    "manifest": "32a2b5334d606a70ca2c/manifest.js"
+  },
+  "assets": [
+    {
+      "name": "ce2edb7b0c5327bfe64a/site.js",
+      "size": 285,
+      "chunks": [
+        0,
+        6
+      ],
+      "chunkNames": [
+        "site"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "8225dabe1b7e2505e1a0/admin.js",
+      "size": 290,
+      "chunks": [
+        1,
+        6
+      ],
+      "chunkNames": [
+        "admin"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "973b2bd2f973a83c9838/common-vendor.js",
+      "size": 116,
+      "chunks": [
+        2,
+        6
+      ],
+      "chunkNames": [
+        "common-vendor"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "c297a16a8cdc6cee675f/common.js",
+      "size": 100,
+      "chunks": [
+        3,
+        6
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "97c69530e53e0de03c0a/site-vendor.js",
+      "size": 108,
+      "chunks": [
+        4,
+        6
+      ],
+      "chunkNames": [
+        "site-vendor"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "3d3c35ef01d26e0284dc/admin-vendor.js",
+      "size": 109,
+      "chunks": [
+        5,
+        6
+      ],
+      "chunkNames": [
+        "admin-vendor"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "32a2b5334d606a70ca2c/manifest.js",
+      "size": 5849,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "manifest"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "entrypoints.json",
+      "size": 486,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    }
+  ],
+  "entrypoints": {
+    "site": {
+      "chunks": [
+        6,
+        2,
+        3,
+        4,
+        0
+      ],
+      "assets": [
+        "32a2b5334d606a70ca2c/manifest.js",
+        "973b2bd2f973a83c9838/common-vendor.js",
+        "c297a16a8cdc6cee675f/common.js",
+        "97c69530e53e0de03c0a/site-vendor.js",
+        "ce2edb7b0c5327bfe64a/site.js"
+      ]
+    },
+    "admin": {
+      "chunks": [
+        6,
+        2,
+        3,
+        5,
+        1
+      ],
+      "assets": [
+        "32a2b5334d606a70ca2c/manifest.js",
+        "973b2bd2f973a83c9838/common-vendor.js",
+        "c297a16a8cdc6cee675f/common.js",
+        "3d3c35ef01d26e0284dc/admin-vendor.js",
+        "8225dabe1b7e2505e1a0/admin.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 146,
+      "names": [
+        "site"
+      ],
+      "files": [
+        "ce2edb7b0c5327bfe64a/site.js"
+      ],
+      "hash": "ce2edb7b0c5327bfe64a",
+      "parents": [
+        4
+      ],
+      "modules": [
+        {
+          "id": 3,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\site-custom.js",
+          "name": "./src/site-custom.js",
+          "index": 4,
+          "index2": 3,
+          "size": 26,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "issuerId": 7,
+          "issuerName": "./src/site.js",
+          "profile": {
+            "factory": 18,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+              "module": "./src/site.js",
+              "moduleName": "./src/site.js",
+              "type": "cjs require",
+              "userRequest": "./site-custom",
+              "loc": "4:0-24"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"site custom\")"
+        },
+        {
+          "id": 7,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "name": "./src/site.js",
+          "index": 0,
+          "index2": 4,
+          "size": 120,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 28,
+            "building": 21
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 0,
+          "source": "require(\"./vendor/common-vendor\")\r\nrequire(\"./vendor/site-vendor\")\r\nrequire(\"./common-custom\")\r\nrequire(\"./site-custom\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 7,
+          "module": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "moduleName": "./src/site.js",
+          "loc": "",
+          "name": "site",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 153,
+      "names": [
+        "admin"
+      ],
+      "files": [
+        "8225dabe1b7e2505e1a0/admin.js"
+      ],
+      "hash": "8225dabe1b7e2505e1a0",
+      "parents": [
+        5
+      ],
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\admin-custom.js",
+          "name": "./src/admin-custom.js",
+          "index": 7,
+          "index2": 6,
+          "size": 31,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "issuerId": 6,
+          "issuerName": "./src/admin.js",
+          "profile": {
+            "factory": 14,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+              "module": "./src/admin.js",
+              "moduleName": "./src/admin.js",
+              "type": "cjs require",
+              "userRequest": "./admin-custom",
+              "loc": "4:0-25"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"admin custom, hi\")"
+        },
+        {
+          "id": 6,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "name": "./src/admin.js",
+          "index": 5,
+          "index2": 7,
+          "size": 122,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 25,
+            "building": 23,
+            "dependencies": 16
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 0,
+          "source": "require(\"./vendor/common-vendor\")\r\nrequire(\"./vendor/admin-vendor\")\r\nrequire(\"./common-custom\")\r\nrequire(\"./admin-custom\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 6,
+          "module": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "moduleName": "./src/admin.js",
+          "loc": "",
+          "name": "admin",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 28,
+      "names": [
+        "common-vendor"
+      ],
+      "files": [
+        "973b2bd2f973a83c9838/common-vendor.js"
+      ],
+      "hash": "973b2bd2f973a83c9838",
+      "parents": [
+        6
+      ],
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\common-vendor.js",
+          "name": "./src/vendor/common-vendor.js",
+          "index": 1,
+          "index2": 0,
+          "size": 28,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "issuerId": 7,
+          "issuerName": "./src/site.js",
+          "profile": {
+            "factory": 20,
+            "building": 7
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+              "module": "./src/admin.js",
+              "moduleName": "./src/admin.js",
+              "type": "cjs require",
+              "userRequest": "./vendor/common-vendor",
+              "loc": "1:0-33"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+              "module": "./src/site.js",
+              "moduleName": "./src/site.js",
+              "type": "cjs require",
+              "userRequest": "./vendor/common-vendor",
+              "loc": "1:0-33"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"common vendor\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 21,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "c297a16a8cdc6cee675f/common.js"
+      ],
+      "hash": "c297a16a8cdc6cee675f",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\common-custom.js",
+          "name": "./src/common-custom.js",
+          "index": 3,
+          "index2": 2,
+          "size": 21,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "issuerId": 7,
+          "issuerName": "./src/site.js",
+          "profile": {
+            "factory": 17,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+              "module": "./src/admin.js",
+              "moduleName": "./src/admin.js",
+              "type": "cjs require",
+              "userRequest": "./common-custom",
+              "loc": "3:0-26"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+              "module": "./src/site.js",
+              "moduleName": "./src/site.js",
+              "type": "cjs require",
+              "userRequest": "./common-custom",
+              "loc": "3:0-26"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"common\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 4,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 26,
+      "names": [
+        "site-vendor"
+      ],
+      "files": [
+        "97c69530e53e0de03c0a/site-vendor.js"
+      ],
+      "hash": "97c69530e53e0de03c0a",
+      "parents": [],
+      "modules": [
+        {
+          "id": 5,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\site-vendor.js",
+          "name": "./src/vendor/site-vendor.js",
+          "index": 2,
+          "index2": 1,
+          "size": 26,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "issuerId": 7,
+          "issuerName": "./src/site.js",
+          "profile": {
+            "factory": 21,
+            "building": 6
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+              "module": "./src/site.js",
+              "moduleName": "./src/site.js",
+              "type": "cjs require",
+              "userRequest": "./vendor/site-vendor",
+              "loc": "2:0-31"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"site vendor\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 5,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 27,
+      "names": [
+        "admin-vendor"
+      ],
+      "files": [
+        "3d3c35ef01d26e0284dc/admin-vendor.js"
+      ],
+      "hash": "3d3c35ef01d26e0284dc",
+      "parents": [],
+      "modules": [
+        {
+          "id": 4,
+          "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\admin-vendor.js",
+          "name": "./src/vendor/admin-vendor.js",
+          "index": 6,
+          "index2": 5,
+          "size": 27,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            5
+          ],
+          "assets": [],
+          "issuer": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "issuerId": 6,
+          "issuerName": "./src/admin.js",
+          "profile": {
+            "factory": 17,
+            "building": 6
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 6,
+              "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+              "module": "./src/admin.js",
+              "moduleName": "./src/admin.js",
+              "type": "cjs require",
+              "userRequest": "./vendor/admin-vendor",
+              "loc": "2:0-32"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "console.log(\"admin vendor\")"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 6,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 0,
+      "names": [
+        "manifest"
+      ],
+      "files": [
+        "32a2b5334d606a70ca2c/manifest.js"
+      ],
+      "hash": "32a2b5334d606a70ca2c",
+      "parents": [],
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\common-custom.js",
+      "name": "./src/common-custom.js",
+      "index": 3,
+      "index2": 2,
+      "size": 21,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+      "issuerId": 7,
+      "issuerName": "./src/site.js",
+      "profile": {
+        "factory": 17,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "module": "./src/admin.js",
+          "moduleName": "./src/admin.js",
+          "type": "cjs require",
+          "userRequest": "./common-custom",
+          "loc": "3:0-26"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "module": "./src/site.js",
+          "moduleName": "./src/site.js",
+          "type": "cjs require",
+          "userRequest": "./common-custom",
+          "loc": "3:0-26"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"common\")"
+    },
+    {
+      "id": 1,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\common-vendor.js",
+      "name": "./src/vendor/common-vendor.js",
+      "index": 1,
+      "index2": 0,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+      "issuerId": 7,
+      "issuerName": "./src/site.js",
+      "profile": {
+        "factory": 20,
+        "building": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "module": "./src/admin.js",
+          "moduleName": "./src/admin.js",
+          "type": "cjs require",
+          "userRequest": "./vendor/common-vendor",
+          "loc": "1:0-33"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "module": "./src/site.js",
+          "moduleName": "./src/site.js",
+          "type": "cjs require",
+          "userRequest": "./vendor/common-vendor",
+          "loc": "1:0-33"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"common vendor\")"
+    },
+    {
+      "id": 2,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\admin-custom.js",
+      "name": "./src/admin-custom.js",
+      "index": 7,
+      "index2": 6,
+      "size": 31,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\admin.js",
+      "issuerId": 6,
+      "issuerName": "./src/admin.js",
+      "profile": {
+        "factory": 14,
+        "building": 8
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "module": "./src/admin.js",
+          "moduleName": "./src/admin.js",
+          "type": "cjs require",
+          "userRequest": "./admin-custom",
+          "loc": "4:0-25"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"admin custom, hi\")"
+    },
+    {
+      "id": 3,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\site-custom.js",
+      "name": "./src/site-custom.js",
+      "index": 4,
+      "index2": 3,
+      "size": 26,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+      "issuerId": 7,
+      "issuerName": "./src/site.js",
+      "profile": {
+        "factory": 18,
+        "building": 8
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "module": "./src/site.js",
+          "moduleName": "./src/site.js",
+          "type": "cjs require",
+          "userRequest": "./site-custom",
+          "loc": "4:0-24"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"site custom\")"
+    },
+    {
+      "id": 4,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\admin-vendor.js",
+      "name": "./src/vendor/admin-vendor.js",
+      "index": 6,
+      "index2": 5,
+      "size": 27,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        5
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\admin.js",
+      "issuerId": 6,
+      "issuerName": "./src/admin.js",
+      "profile": {
+        "factory": 17,
+        "building": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 6,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+          "module": "./src/admin.js",
+          "moduleName": "./src/admin.js",
+          "type": "cjs require",
+          "userRequest": "./vendor/admin-vendor",
+          "loc": "2:0-32"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"admin vendor\")"
+    },
+    {
+      "id": 5,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\vendor\\site-vendor.js",
+      "name": "./src/vendor/site-vendor.js",
+      "index": 2,
+      "index2": 1,
+      "size": 26,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "assets": [],
+      "issuer": "C:\\Projects\\webpack-commons\\src\\site.js",
+      "issuerId": 7,
+      "issuerName": "./src/site.js",
+      "profile": {
+        "factory": 21,
+        "building": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+          "module": "./src/site.js",
+          "moduleName": "./src/site.js",
+          "type": "cjs require",
+          "userRequest": "./vendor/site-vendor",
+          "loc": "2:0-31"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "console.log(\"site vendor\")"
+    },
+    {
+      "id": 6,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\admin.js",
+      "name": "./src/admin.js",
+      "index": 5,
+      "index2": 7,
+      "size": 122,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 25,
+        "building": 23,
+        "dependencies": 16
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0,
+      "source": "require(\"./vendor/common-vendor\")\r\nrequire(\"./vendor/admin-vendor\")\r\nrequire(\"./common-custom\")\r\nrequire(\"./admin-custom\")"
+    },
+    {
+      "id": 7,
+      "identifier": "C:\\Projects\\webpack-commons\\src\\site.js",
+      "name": "./src/site.js",
+      "index": 0,
+      "index2": 4,
+      "size": 120,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 28,
+        "building": 21
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0,
+      "source": "require(\"./vendor/common-vendor\")\r\nrequire(\"./vendor/site-vendor\")\r\nrequire(\"./common-custom\")\r\nrequire(\"./site-custom\")"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
